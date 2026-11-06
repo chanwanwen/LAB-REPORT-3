@@ -83,31 +83,31 @@ streamlit run SD24059_Lab3.py
 ## 8. Project Documentation
 
 1. Main Application Interface
-![Main page Interface](images/main_page.png)
+![Main page Interface](images/Main page.png)
 
 The main interface provides three sections: Evaluation, Rules and Testing.
 
 2. Applicant Information
-<img width="1916" height="822" alt="image" src="https://github.com/user-attachments/assets/f6fb2b03-ca75-4f63-9271-b834be4fd8f6" />
+![Main page Interface](images/Main page.png)
 
 Users can enter applicant details, including CGPA, family income, co-curricular score, community service hours, semester and disciplinary actions.
 
 3. Scholarship Evaluation
-<img width="1848" height="832" alt="image" src="https://github.com/user-attachments/assets/c36e287e-3ea5-4954-938d-b3a86419bc40" />
+![Scholarship Evaluation](images/Decision.png)
 
 The system evaluates applicant information and generates a scholarship recommendation based on the predefined rules.
 
 4. JSON Rule Configuration
-<img width="1837" height="835" alt="image" src="https://github.com/user-attachments/assets/7c113d61-f82f-4ea0-88d4-c57cac767b45" />
+![Rule Configuration](images/Rule configuration.png)
 
 The JSON editor allows users to view and modify the scholarship rules, including conditions, priorities and actions.
 
 5. Rule Matching
-<img width="1755" height="792" alt="image" src="https://github.com/user-attachments/assets/e6f77585-9548-489e-8c14-cf819e69f8c4" />
+![Rule Matching](images/Condition check.png)
 
 The inference engine checks all conditions and selects the matching rule with the highest priority.
 
 6. System Testing
-<img width="1863" height="787" alt="image" src="https://github.com/user-attachments/assets/84aabaf1-8649-48ac-a5ed-2a8b74cb7351" />
+![System Testing](images/Testing.png)
 
 Different applicant scenarios are tested to verify the system's decision-making functionality.
