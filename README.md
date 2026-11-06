@@ -83,7 +83,7 @@ streamlit run SD24059_Lab3.py
 ## 8. Project Documentation
 
 1. Main Application Interface
-<img width="1916" height="822" alt="image" src="https://github.com/user-attachments/assets/90495cd9-dbcd-4c48-bb81-e88e29274568" />
+![Main page Interface](images/main_page.png)
 
 The main interface provides three sections: Evaluation, Rules and Testing.
 
