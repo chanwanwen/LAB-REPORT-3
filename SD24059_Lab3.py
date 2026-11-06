@@ -183,7 +183,7 @@ with tab1:
                 {
                     "Rule": r["name"],
                     "Priority": r["priority"],
-                    "Decision": r["action"]["decision"]
+                    "Decision": r["action"]["decision"],
                     "Reason":r["action"]["reason"]
                 }
                 for r in matched
