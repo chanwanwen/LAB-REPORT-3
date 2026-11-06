@@ -83,12 +83,12 @@ streamlit run SD24059_Lab3.py
 ## 8. Project Documentation
 
 1. Main Application Interface
-![Main page Interface](images/Main page.png)
+![Main page Interface](images/Main_page.png)
 
 The main interface provides three sections: Evaluation, Rules and Testing.
 
 2. Applicant Information
-![Main page Interface](images/Main page.png)
+![Main page Interface](images/Main_page.png)
 
 Users can enter applicant details, including CGPA, family income, co-curricular score, community service hours, semester and disciplinary actions.
 
@@ -98,12 +98,12 @@ Users can enter applicant details, including CGPA, family income, co-curricular 
 The system evaluates applicant information and generates a scholarship recommendation based on the predefined rules.
 
 4. JSON Rule Configuration
-![Rule Configuration](images/Rule configuration.png)
+![Rule Configuration](images/Rule_configuration.png)
 
 The JSON editor allows users to view and modify the scholarship rules, including conditions, priorities and actions.
 
 5. Rule Matching
-![Rule Matching](images/Condition check.png)
+![Rule Matching](images/Condition_check.png)
 
 The inference engine checks all conditions and selects the matching rule with the highest priority.
 
