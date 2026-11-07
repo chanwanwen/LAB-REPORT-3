@@ -90,24 +90,34 @@ The main interface provides three sections: Evaluation, Rules and Testing.
 2. Applicant Information
 ![Main page Interface](images/Main_page.png)
 
-Users can enter applicant details, including CGPA, family income, co-curricular score, community service hours, semester and disciplinary actions.
+Users can enter six applicant details: CGPA, monthly family income, co-curricular score, community service hours, current semester and number of disciplinary actions.
+
+The system uses these details to evaluate the applicant against the predefined scholarship rules.
 
 3. Scholarship Evaluation
 ![Scholarship Evaluation](images/Decision.png)
 
-The system evaluates applicant information and generates a scholarship recommendation based on the predefined rules.
+Click Evaluate Applicant to start the evaluation process. The inference engine checks the applicant's information against all five predefined rules and generates a scholarship recommendation.
+
+The result includes the rule, priority, decision, and reason.
 
 4. JSON Rule Configuration
 ![Rule Configuration](images/Rule_configuration.png)
 
-The JSON editor allows users to view and modify the scholarship rules, including conditions, priorities and actions.
+Each rule is assigned a priority value. When multiple rules match an applicant, the system selects the rule with the highest priority.
+
+The application also displays a table of matched rules, including their priorities and corresponding decisions.
 
 5. Rule Matching
 ![Rule Matching](images/Condition_check.png)
 
-The inference engine checks all conditions and selects the matching rule with the highest priority.
+Users can expand the condition-checking section to view whether each condition is satisfied.
+
+Each condition is displayed as True or False, helping users understand how the system reaches its decision.
 
 6. System Testing
 ![System Testing](images/Testing.png)
 
-Different applicant scenarios are tested to verify the system's decision-making functionality.
+The Testing tab provides five sample applicant scenarios, including full scholarship, partial scholarship, need-based review and rejection cases.
+
+Users can run the test cases and view the resulting decisions and winning rules.
