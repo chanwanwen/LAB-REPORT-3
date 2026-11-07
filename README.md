@@ -7,8 +7,8 @@ This project develops a **Scholarship Advisory System** using a Python-based Rul
 
 The system uses predefined IF–THEN rules to evaluate applicant information and generate scholarship recommendations.
 
-- **Live Application:** [(https://lab-report-3-46ay4a5zpdpan84hx44exu.streamlit.app/)]
-- **GitHub Repository:** [(https://github.com/chanwanwen/LAB-REPORT-3)]
+- **Live Application:** (https://lab-report-3-46ay4a5zpdpan84hx44exu.streamlit.app/)
+- **GitHub Repository:** (https://github.com/chanwanwen/LAB-REPORT-3)
 
 ## 2. Objectives
 
