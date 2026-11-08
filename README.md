@@ -49,9 +49,10 @@ The system uses predefined IF–THEN rules to evaluate applicant information and
 ```text
 SD24059_Lab3/
 │
+├── images
+├── README.md
 ├── SD24059_Lab3.py
-├── requirements.txt
-└── README.md
+└── requirements.txt
 ```
 
 ## 7. Installation and Setup
